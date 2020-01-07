@@ -103,7 +103,7 @@ function registerButtonHandlers() {
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
             url: 'https://erilineliff.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
-            external: true
+            external: false
         });
     });
 
